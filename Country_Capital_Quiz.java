@@ -4,7 +4,7 @@ public class Country_Capital_Quiz
     public static void main () throws IOException
     {
         InputStreamReader read = new InputStreamReader(System.in);
-        File file = new File ("C:\\Users\\parth\\Downloads\\Countries (1).txt");
+        File file = new File ("C:\\Users\\parth\\Downloads\\Countries.txt");
         BufferedReader alive = new BufferedReader (new FileReader(file));
         File file1 = new File ("C:\\Users\\parth\\Downloads\\Capitals.txt");
         BufferedReader dead = new BufferedReader (new FileReader(file1));
@@ -13,7 +13,6 @@ public class Country_Capital_Quiz
         boolean found=false,re=true;
         String capital,country;
         String ans[] = new String[turns];
-        //String arr[][] = {{"Indonesia","Thailand","Austria","Belarus","Tuvalu","Argentina","New Zealand","Australia","Venezuela","Peru","Russia","Iceland","Croatia","Ukraine","Bhutan","Nepal","Bahrain"},{"Jakarta","Bangkok","Vienna","Minsk","Funafuti","Buenos Aires","Wellington","Canberra","Caracas","Lima","Moscow","Reykjavik","Zagreb","Kiev","Thimphu","Kathmandu","Manama"}};
         int m[] = new int[turns];
         String arr[][] = new String[2][196];
         String st;
